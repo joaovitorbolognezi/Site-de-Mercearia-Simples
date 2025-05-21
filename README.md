@@ -1,12 +1,15 @@
 <h1><strong><em>Site Interativo de Padaria</em></strong></h1>
+<p align="center">
+  <img src="Gif-Site.gif" width="600" alt="Demonstração do site" />
+</p>
 
 ## 🥖 Visão Geral
-- Este é um projeto simples e funcional desenvolvido para treinar habilidades iniciais em **HTML**, **CSS** e **Js**, simulando um site de Mercearia.
+- Projeto simples e funcional para treinar habilidades iniciais em **HTML**, **CSS** e **JavaScript**, simulando um site de mercearia.
 
 ## ⚙️ Funcionalidades
-- Exibe os produtos de uma Padaria, organizado por seções;
+- Exibe os produtos de uma padaria, organizado por seções;
 - Campo de entrada para pedidos e botões funcionais;
-- Lista de pedidos exibida de froma dinâmica na página e podendo alterar ou remover os intes inseridos;
+- Lista de pedidos exibida de forma dinâmica na página, permitindo alterar ou remover os itens inseridos;
 
 ## 💻 Tecnologias e Recursos
 - [HTML](https://html.spec.whatwg.org/multipage/)
@@ -15,16 +18,16 @@
 
 ## 🧪 Como Testar
 1. Faça o download ou clone o repositório;
-2. Abra o arquivo .html e execute ele, pondendo interagir com todos os botões.
+2. Abra o arquivo '.html' no navegador e interaja com todos os botões.
 
 ## 📘 Aprendizados e Experiência
-Durante esse projeto, explorei conceitos fundamentais do front-end como:
+Durante esse projeto, explorei conceitos fundamentais do front-end, tais como:
 
 - Criação de interfaces responsivas e visuais com HTML e CSS;
 - Manipulação de DOM e eventos com JavaScript;
-- Aprendizado com IA para ajustes rápidos de design no CSS;
-- Adaptação e personalização de códigos-tutoriais para contextos diferentes.<br>
+- Uso de IA para ajustes rápidos de design no CSS;
+- Adaptação e personalização de códigos-tutoriais para contextos diferentes.
 
----<br>
+---
 
 ***Desenvolvido por João Vitor Bolognezi durante o 1º semestre do curso de Engenharia de Software.***
