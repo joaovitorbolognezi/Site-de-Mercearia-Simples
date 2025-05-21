@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Loja do Joãozinho</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1 id="mercearia"></h1>
+    </header>
+
+    <main>
+        <h2>Padaria</h2>
+        <p>Pão, Frios, entre outros. 
+            <a href="#" target="_blank"></a>
+        </p>
+        <a href="#"><img src="TesteIMG.jpg" alt="Uma bela padaria."></a>
+
+        <div class="listas">
+          <h3>Produtos da Padaria:</h3>
+            <p><em>Tipos de pães:</em></p>
+            <ul>
+                <li>Pão de Forma ao leite</li>
+                <li>Pão de Forma na manteiga</li>
+                <li>Pão Francês</li>
+            </ul>
+            <img src="TesteIMG2.jpg" alt="Cesta de Pães">
+            <p>Tipo de bolos <strong>mais procurados</strong>:</p>
+            <ol>
+                <li>Bolo de chocolate</li>
+                <li>Bolo de cenoura</li>
+                <li>Bolo de Aniversário</li>
+            </ol>
+            <img src="TesteIMG3.jpg" alt="Outra imagem de padaria">
+        </div>
+
+      <!-- adicionar um action aqui para funcionar o botão type="submit" (o de confirmação)--> 
+<form onsubmit="return false">
+<div>
+  <h4>Pedidos:</h4>
+</div>
+  <fieldset>
+    <legend><strong>Como deseja realizar a compra:</strong></legend>
+    <label for="Entrega">
+      <input id="Entrega" type="radio" name="Entrega-Retirada" checked>
+      Entrega
+    </label>
+    <label for="Retirada">
+      <input id="Retirada" type="radio" name="Entrega-Retirada">
+      Retirada
+    </label>
+  </fieldset>
+
+  <fieldset>
+    <legend><strong>Adicionais:</strong></legend>
+    <label for="Frios">
+      <input id="Frios" type="checkbox" name="Acompanhamentos" checked>
+      Frios
+    </label>
+    <label for="Café">
+      <input id="Café" type="checkbox" name="Acompanhamentos">
+      Café
+    </label>
+    <label for="Mini-Manteiga">
+      <input id="Mini-Manteiga" type="checkbox" name="Acompanhamentos">
+      Mini-Manteiga
+    </label>
+  </fieldset>
+
+<div>
+    <label for="pedido"><strong>Escreva seu pedido aqui: (1 item por vez)</strong></label>
+    <input type="text" id="pedido" name="pedido" placeholder="Itens Aqui!" required><br>
+    <button type="button" onclick="adicionarItem()" class="adicionar">Clique aqui para adicionar o item ao pedido</button><br>
+    <button onclick="limparItens()" class="limpar">Remover todos os Itens</button>
+    <p id="mensagem"></p>
+      <ul id="lista-de-itens"></ul>
+    <button type="submit">Confirmar Pedido</button>
+</div>
+</form>
+    </main>
+
+  <footer>
+      <p><small>Sem Copyright -
+      Testes Apenas • 
+      <a href="https://github.com/joaovitorbolognezi">github.com/joaovitorbolognezi</a></small></p>  
+  </footer>
+
+<script src="script site.js"></script>
+
+</body>
+</html>
